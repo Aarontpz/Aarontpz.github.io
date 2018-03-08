@@ -2,3 +2,5 @@ This page exists to host my CSC570 (Computational Intelligence) final research r
 
 - [_Why Generative Models, Why Reinforcement Learning_](why_gm_why_rl.md)
 - [_Reinforcement Learning, Sample Scarcity, and the Beauty of GANs_](sample_scarcity.md)
+- [_Interplay between Imitation Learners and GANs_](imitation_learning.md)
+- [_Actor-Critic Models and GANs_](actor_critic.md)
