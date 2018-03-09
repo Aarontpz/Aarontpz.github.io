@@ -1,5 +1,7 @@
 Both supervised and reinforcement learning methods suffer from issues of sample scarcity - a lack of samples to properly represent or capture the target distribution. A good example of this is the task of learning how to play chess: how many times would you have to see chess be played to understand its core mechanics, with no prior knowledge? What value would you assign to each move on the chessboard? How many hundreds of games would you have to observe to find relationships between states and optimal actions? Would those hundreds of games even begin to cover the full range of possible states and actions in a way which adequately demonstrates the optimal value of an action in a given state? 
+
 ![Decision tree for a single turn in Chess. Source: https://kevinbinz.com/2015/02/26/decision-trees-in-chess/](https://kevinbinz.files.wordpress.com/2015/02/chess-decision-tree-quiet-position-comparison1.png)
+*Above: Possible decisions for a single turn in Chess.*
 
 These are questions which normal humans pay very little attention to - a child can learn the rules of chess, and movements the average player makes can be based on search trees no more than three steps into the future (and is typically governed by intuition rather than a formal state-action pair value for each possible action in a given state). But for a parameterized model like a neural network, intuition cannot be explicitly coded, and formalizing the optimal solution for a given state almost certainly requires consideration of many possible states far into the future. 
 
